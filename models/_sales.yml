@@ -10,7 +10,7 @@ models:
           - unique
           - not_null
       - name: customer_id
-        description: unique ID for a customer
+        description: unique ID for a customer -- test change
         meta:
           hashboard:
             foreignModels:
