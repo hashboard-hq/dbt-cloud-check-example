@@ -58,6 +58,8 @@ models:
             aggregationOptions:
               minGranularity: week
               maxGranularity: year
+      - name: quantity_category
+        description: category of quantity
     meta:
       hashboard:
         alias: sales
