@@ -7,6 +7,8 @@ on:
 jobs:
   create_hashboard_build:
     runs-on: ubuntu-latest
+    env:
+      HB_DBT_CLOUD_ACCOUNT_ID: 21999
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
